@@ -16,6 +16,7 @@ class DockingStation
   end
 
   def release(bike)
+    raise 'humptydumpty'
     @bikes.delete(bike)
   end
 
